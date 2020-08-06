@@ -12,7 +12,7 @@ function TeacherList() {
     <div id="page-teacher-list" className="container">
       <PageHeader title="Estes são os proffys disponíveis.">
         <form id="search-teachers">
-        <Select
+          <Select
             name="subject"
             label="Matéria"
             options={[
@@ -46,7 +46,7 @@ function TeacherList() {
             label="Hora"
             type="time"
           />
-          <button type="submit">Buscar</button>
+          <button type="submit">Buscar!</button>
         </form>
       </PageHeader>
 
