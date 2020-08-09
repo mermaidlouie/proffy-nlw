@@ -23,16 +23,19 @@ function GiveClasses() {
         style={styles.content}
         resizeMode="contain"
       >
-        <Text style={styles.title}>Quer ser um Proffy?</Text>
+        <Text style={styles.title}>Quer fazer parte do nosso time?</Text>
         <Text style={styles.description}>
           Para começar, você precisa se cadastrar como professor na nossa plataforma web.
+        </Text>
+        <Text style={styles.description}>
+          Logo essa funcionalidade estará disponível no nosso aplicativo. &#x1F49C;
         </Text>
       </ImageBackground>
       <RectButton
         onPress={handleNavigationBack}
         style={styles.okButton}
       >
-        <Text style={styles.okButtonText}>Tudo bem</Text>
+        <Text style={styles.okButtonText}>Tudo bem!</Text>
       </RectButton>
     </View>
   );
